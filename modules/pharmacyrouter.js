@@ -37,6 +37,7 @@ router.get("/getNearestPharmacy/:lat/:log", (req, res, next) => {
   }
 });
 
+//Validating the inputs.
 var validateInputs = function(userlat, userlog) {
   if (userlat === "" && userlog === "")
     return { valid: false, msg: "Latitude and Longitude should not be empty." };
