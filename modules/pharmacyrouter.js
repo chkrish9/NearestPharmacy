@@ -39,7 +39,7 @@ router.get("/getNearestPharmacy/:lat/:log", (req, res, next) => {
 
 var validateInputs = function(userlat, userlog) {
   if (userlat === "" && userlog === "")
-    return { valid: false, msg: "latitude and longitude should not be empty." };
+    return { valid: false, msg: "Latitude and Longitude should not be empty." };
   if (isNaN(userlat) || isNaN(userlog))
     return {
       valid: false,

@@ -26,6 +26,6 @@ routes(app);
 const server = http.createServer(app);
 
 //Start the server.
-server.listen(port, () => {
+module.exports = server.listen(port, () => {
   console.log("Sever running in port : " + port);
 });
