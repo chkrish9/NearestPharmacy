@@ -2,7 +2,7 @@
 
 ## Documentation
 
-## Deployment
+## Steps to run the application
 
 #### Softwares needed:
 
@@ -11,7 +11,7 @@
 2. git.
    - To clone the project.
 
-#### Steps to run the application:
+#### Steps:
 
 1. Download or clone the project.
 2. Open cmd or git bash and navigate to app.js folder.
@@ -27,7 +27,11 @@
    npm start
 ```
 
-5. Run the following command to run the unit test.
+5. Open `Browser` or `Postman` or `Advanced rest client`. Paste the below URL and update latitude and longitude.
+
+   - http://localhost:3000/pharmacy/getNearestPharmacy/latitude/longitude
+
+6. Run the following command to run the unit test.
 
 ```bash
    npm test
