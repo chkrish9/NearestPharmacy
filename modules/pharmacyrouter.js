@@ -19,7 +19,8 @@ router.get("/getNearestPharmacy/:lat/:log", (req, res, next) => {
         if (err)
           res.status(500).json({
             success: false,
-            msg: "Something went wrong. Please contact system administrator."
+            msg:
+              "Something went wrong. Please contact the system administrator."
           });
         else
           res.status(200).json({
@@ -32,7 +33,7 @@ router.get("/getNearestPharmacy/:lat/:log", (req, res, next) => {
   } catch (e) {
     res.status(500).json({
       success: false,
-      msg: "Something went wrong. Please contact system administrator."
+      msg: "Something went wrong. Please contact the system administrator."
     });
   }
 });
