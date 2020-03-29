@@ -1,5 +1,7 @@
 # Nearest Pharmacy
 
+This application helps the user to retrieve nearest pharmacies' name, address and distance from his current location.
+
 ## Documentation
 
 - [Demo](https://github.com/chkrish9/NearestPharmacy/wiki/Demo)
