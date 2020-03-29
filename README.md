@@ -2,6 +2,10 @@
 
 ## Documentation
 
+- [Demo](https://github.com/chkrish9/NearestPharmacy/wiki/Demo)
+- [Project Documentation](https://github.com/chkrish9/NearestPharmacy/wiki/Project-Documentation)
+- [Developer Documentation](https://github.com/chkrish9/NearestPharmacy/wiki/Developer-Documentation)
+
 ## Steps to run the application
 
 #### Softwares needed:
