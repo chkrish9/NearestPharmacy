@@ -33,7 +33,7 @@ This application helps the user to retrieve nearest pharmacies' name, address an
    npm start
 ```
 
-5. Open `Browser` or `Postman` or `Advanced rest client`. Paste the below URL and update latitude and longitude.
+5. Open `Browser` or `Postman` or `Advanced rest client`. Paste the below URL and update the latitude and longitude.
 
    - http://localhost:3000/pharmacy/getNearestPharmacy/latitude/longitude
 
